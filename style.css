@@ -22,6 +22,8 @@ body {
     /* виден курсор при наведении мышкой */
     cursor: pointer;
     display: flex;
+    /* чтобы карточка расставлялась верно (работает только с 'flex') */
+    gap: 20px;
     justify-content: center;
     align-items: center;
     padding: 30px;
