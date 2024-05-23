@@ -46,3 +46,7 @@ body {
     1px, 1px, 15px, #02a298aa;
     /* у нас наружная тень, есть еще внутренняя тень "insert" */
 }
+
+.card:first-child {
+    grid-column: span 6;
+}
