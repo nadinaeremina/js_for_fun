@@ -9,7 +9,11 @@ body {
     padding: 100 px;
     /* чтобы "padding" не увеличивал размер нашего тега*/
     box-sizing: border-box; 
-    display: flex;
+    /* display: flex; */
+    /* чтобы карточка расставлялась верно (работает только с 'flex') */
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(6,auto);
     justify-content: center;
     align-items: center;
     /* если элементы могут не уместиться в один ряд */
@@ -22,8 +26,6 @@ body {
     /* виден курсор при наведении мышкой */
     cursor: pointer;
     display: flex;
-    /* чтобы карточка расставлялась верно (работает только с 'flex') */
-    gap: 20px;
     justify-content: center;
     align-items: center;
     padding: 30px;

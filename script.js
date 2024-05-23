@@ -4,7 +4,7 @@ const optimizeNumber = (n) => (n + "").length ===2 ? n : "0" + n;
 
 const data = [];
 const colors = ["#CDB9D6aa", "#02A298aa", "#A3D8CFaa", "#F0B2ABaa", "#73615Eaa"];
-let n = getNumber(41, 1);
+let n =Math.floor(getNumber(61, 6) / 6) * 6 ;
 
 while (n--) {
     data.push(getNumber(100));
